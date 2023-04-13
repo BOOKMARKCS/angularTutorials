@@ -1,0 +1,6 @@
+<p>ng-on-changes works!</p>
+<div class="container">
+  <label for="item-input">Add an item:</label>
+  <input type="text" id="item-input" [(ngModel)]="value" (ngModelChange)="ngOnChanges(value)">
+  <button type="button" >Add to parent's list</button>
+</div>
